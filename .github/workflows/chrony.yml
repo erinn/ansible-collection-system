@@ -34,6 +34,7 @@ jobs:
           - { "distro":"debian-10", "command":"/lib/systemd/systemd" }
         collection_role:
           - chrony
+          
     steps:
       - name: Check out code
         uses: actions/checkout@v1
